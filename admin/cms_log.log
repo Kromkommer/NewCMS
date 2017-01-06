@@ -1,0 +1,39 @@
+Parameter 'page_id' POST:  GET: 
+Action = pages  Parameter page_id = : Type: NULL
+Run query: select * from cms_page order by id
+Parameter 'page_id' POST:  GET: 
+Action = pages  Parameter page_id = : Type: NULL
+Run query: select * from cms_page order by id
+Run query: select * from cms_content order by id
+Parameter 'page_id' POST:  GET: 
+Action = pages  Parameter page_id = : Type: NULL
+Run query: select * from cms_page order by id
+Parameter 'page_id' POST:  GET: 
+Action = pages  Parameter page_id = : Type: NULL
+Run query: select * from cms_page order by id
+Run query: select * from cms_content order by id
+Parameter 'page_id' POST:  GET: 
+Action = pages  Parameter page_id = : Type: NULL
+Run query: select * from cms_page order by id
+Parameter 'page_id' POST:  GET: 2
+Action = editpage  Parameter page_id = :2 Type: integer
+PageQuery getPageByID:2
+PageQuery query:select * from cms_page where id = ?
+2Current page content = <p>dfgsdfgsdfg</p>
+<p><strong>sdfgsdfgsdfgsdfg</strong></p>
+<p>sdfgsdfgsdfg</p>
+Parameter 'page_id' POST:  GET: 
+Action = pages  Parameter page_id = : Type: NULL
+Run query: select * from cms_page order by id
+Parameter 'page_id' POST:  GET: 4
+Action = editpage  Parameter page_id = :4 Type: integer
+PageQuery getPageByID:4
+PageQuery query:select * from cms_page where id = ?
+4Current page content = 
+Parameter 'page_id' POST:  GET: 
+Action = pages  Parameter page_id = : Type: NULL
+Run query: select * from cms_page order by id
+Run query: select * from cms_content order by id
+ContentQuery getContentByID:2
+ContentQuery query:select * from cms_content where id = ?
+Run query: select * from cms_content order by id
